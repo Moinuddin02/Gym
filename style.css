@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(img.jpg);
+    background-size: cover;
+    color: white;
+ 
+    
+}
+.left{
+   /* border: 2px solid red; */
+   display: inline-block;
+   position: absolute;
+   left: 87px;
+   top: 12px;
+}
+.left img{
+    width: 180px;
+}
+.left div{
+    text-align: center;
+    top: 10px;
+    font-family: 'Lora', serif;
+    line-height: 0px;
+    font-size: 20px;
+    
+
+    
+}
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+.right{
+    /* border: 2px solid orange; */
+    display: inline-block;
+    position: absolute;
+    right: 32px;
+    top: 20px;
+    font-family: 'Lora', serif;
+    
+}
+
+.Navbar li{
+    display: inline-block;
+    font-size: 15px;
+
+}
+.Navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+.Navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(157, 148, 148);
+}
+.btn{
+    color: white;
+    background-color: black;
+    margin: 0px 12px;
+    padding: 4px 14px;
+    border-radius: 9px;
+    border: 2px solid palegreen;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(38, 36, 36);
+}
+.container{
+    border: 2px solid white;
+    margin: 122px 41px;
+    padding: 84px 63px;
+    border-radius: 100px;
+    width: 32%;
+}
+.form-grp input{
+    text-align: center;
+    display: block;
+    width: 333px;
+    margin: 23px auto;
+    padding: 4px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 18%;
+    margin: 43px auto;
+}
